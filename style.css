@@ -1,0 +1,127 @@
+/*
+	Instructions for MacOS:
+	- Install the fonts 'Operator Mono' & 'Fira Code'
+	- Install theme 'Dark Candy'
+	- Add the following config to the VS Code settings.json:
+	{
+	  "editor.renderWhitespace": "all",
+	  "editor.fontSize": 14,
+	  "eslint.autoFixOnSave": true,
+	  "atomKeymap.promptV3Features": true,
+	  "editor.multiCursorModifier": "ctrlCmd",
+	  "editor.formatOnPaste": true,
+	  "editor.formatOnSave": true,
+	  "prettier.singleQuote": true,
+	  "editor.formatOnSave": true,
+	  "workbench.colorCustomizations": {
+	    "tab.activeBorder": "#00E5E5",
+	    "list.inactiveSelectionForeground": "#00E5E5",
+	    "list.activeSelectionBackground": "#00a6a9"
+	  },
+	  "workbench.iconTheme": "vscode-icons",
+	  "workbench.colorTheme": "Dark Candy",
+	  "editor.fontFamily": "Operator Mono, Fira Code",
+	  "editor.fontLigatures": true,
+	  "editor.fontSize": 14,
+	  "editor.lineHeight": 20,
+	  "vscode_custom_css.imports": ["file:///Users/Stephanie/.vscode/style.css"],
+	  "editor.tabSize": 2,
+	  "editor.tokenColorCustomizations": {
+	    "textMateRules": [
+	      {
+		"scope": "punctuation",
+		"settings": {
+		  "foreground": "#ffffff"
+		}
+	      },
+	      {
+		"scope": "storage.modifier",
+		"settings": {
+		  "foreground": "#d0d0d0",
+		  "fontStyle": "italic"
+		}
+	      },
+	      {
+		"scope": "punctuation.definition.comment",
+		"settings": {
+		  "foreground": "#676767",
+		  "fontStyle": "italic"
+		}
+	      },
+	      {
+		"scope": "punctuation.definition.tag.begin",
+		"settings": {
+		  "foreground": "#d0d0d0"
+		}
+	      },
+	      {
+		"scope": "punctuation.definition.tag.end",
+		"settings": {
+		  "foreground": "#d0d0d0"
+		}
+	      },
+	      {
+		"scope": "punctuation.definition.string.begin",
+		"settings": {
+		  "foreground": "#f7bb9f"
+		}
+	      },
+	      {
+		"scope": "punctuation.definition.string.end",
+		"settings": {
+		  "foreground": "#f7bb9f"
+		}
+	      },
+	      {
+		"scope": "variable.other.object",
+		"settings": {
+		  "foreground": "#569cd6"
+		}
+	      },
+	      {
+		"scope": "variable.other.property",
+		"settings": {
+		  "foreground": "#569cd6"
+		}
+	      },
+	      {
+		"scope": "variable.other.readwrite",
+		"settings": {
+		  "foreground": "#569cd6"
+		}
+	      },
+	      {
+		"scope": "meta.identifier",
+		"settings": {
+		  "foreground": "#CE9178"
+		}
+	      }
+	    ]
+	  }
+	}
+	- In VS Code, install the plugin 'Custom CSS and JS Loader'
+	- Put this CSS file where you want (i.e: /Users/Stephanie/.vscode/style.css)
+	- Open VS Code settings and add: "vscode_custom_css.imports": ["file:///Users/Stephanie/.vscode/style.css"]
+	- Make sure the path is referencing the same place where you put this CSS file
+	- Check that you can open the file in your settings with 'CMD + click' or 'CTRL + click'. It should be underlined.
+	- Hit 'CMD + shift + P' and type 'Enable Custom CSS and JS'
+	- Close and reopen VS Code, check that everything works.
+*/
+
+/* Ligatures */
+/* .mtk26,
+.mtk16,
+.mtk36,
+.mtk39 {
+  font-family: "Operator Mono Lig";
+} */
+
+/* Keywords, decorators, comments */
+.mtk6,
+.mtk3,
+.mtk4 {
+	font-family: "Operator Mono Lig";
+	font-style: italic;
+  font-size: 1em;
+}
+   
