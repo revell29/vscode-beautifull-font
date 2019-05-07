@@ -1,12 +1,15 @@
 ## Operator Mono Ligature VSCODE
 
 **Javascript**
+
 <img src="./image/javascript-example..png" />
 
 **Laravel**
+
 <img src="./image/laravel-example.png" />
 
 **Python**
+
 <img src="./image/python-example.jpg" />
 
 ## how to install
