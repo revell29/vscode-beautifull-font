@@ -5,7 +5,7 @@ repository and read this to make your vscode prettier.
 
 **Javascript**
 
-<img src="./image/javascript-example..png" />
+<img src="./image/javascript-example.png" />
 
 **Laravel**
 
